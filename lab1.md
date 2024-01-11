@@ -17,3 +17,11 @@ Monday
 cuz its a holiday
 cool
 ![Image](cdwitharg.png)
+![Image](cdwnoarg.png)
+![Image](cdwithfile.png)
+![Image](lswnoarg.png)
+![Image](lswfolder.png)
+![Image](lswfile.png)
+![Image](catwnoarg.png)
+![Image](catithfile.png)
+![Image](catwfolder.png)
