@@ -23,5 +23,5 @@ cool
 ![Image](lswfolder.png)
 ![Image](lswfile.png)
 ![Image](catwnoarg.png)
-![Image](catithfile.png)
+![Image](catwithfile.png)
 ![Image](catwfolder.png)
