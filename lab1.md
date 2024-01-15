@@ -18,6 +18,7 @@ cuz its a holiday
 cool
 
 ![Image](cdwnoarg.png)
+
 The working directory when running the 'cd' command was '/home'. The output of using the 'cd' command without any arguments in the current directory '/home' is that there's no output. However the 'cd' command brings the path to the same directory than what it already was. This is because 'cd' stands for changing directory and since there were no arguments, the default directory is the directory it uses to change to which is the directory we were in the first place. This is why it looks like the command effectively did nothing and didn't create any errors.
 ![Image](cdwitharg.png)
 The working directory when running the 'cd' command with an argument of a folder was '/home'. The input was the 'cd' command with an argument of the directory 'lecture1'. The ouput of this was nothing but the prompt in the terminal as you can see from the example, the prompt in the terminal has changed which means that the current directory the terminal is in has changed from '/home' to 'lecture1'. The output didn't create any error but the command instead just changed the current directory and showed no output.
