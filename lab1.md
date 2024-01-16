@@ -1,22 +1,3 @@
-This is my lab report
-When will I do it?
-Idk but I'll definitely do it
-What day?
-Today's Thursday
-soooooooo
-we got
-Friday
-Saturday
-Sunday
-Monday
-Tuesday
-that's 5 days!
-Let me give a guess
-ummmm
-Monday
-cuz its a holiday
-cool
-
 ![Image](cdwnoarg.png)
 
 The working directory when running the `cd` command was `/home`. The output of using the `cd` command without any arguments in the current directory `/home` is that there's no output. However the `cd` command brings the path to the same directory than what it already was. This is because `cd` stands for changing directory and since there were no arguments, the default directory is the directory it uses to change to which is the directory we were in the first place. This is why it looks like the command effectively did nothing and didn't create any errors.
