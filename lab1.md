@@ -14,7 +14,7 @@ The working directory when running the `cd` command with an argument of a file w
 
 The working directory when runnning the `ls` command was `/home`. The input in the terminal was the `ls` command with no arguments and the output was the folder `lecture1`. The reason why this happened is because since our current directory is `/home` and the `ls` command just lists the files and folders in a given path, it listed out `lecture1` as it was the only folder in the `/home` directory and there were no files in the current directory either.
 
-![Image](lswfolder.png)
+![Image](lswithfolder.png)
 
 The working directory when running the `ls` command was `home/lecture1`. The input in the terminal was the `ls` command with one argument which was a folder called `messages` and the ouput was a list of txt files. The reason why this happened was because since our current directory had access to the messages folder, by passing in `messages` as an argument along with the `ls` command that lists files and folders of a certain path, we were able to list the files that can be found within the messages folder.
 
