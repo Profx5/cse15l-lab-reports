@@ -20,7 +20,7 @@ The working directory when running the `cd` command was `/home`. The input was t
 
 ![Image](cdwithfile.png)
 
-The working directory when running the `cd` command with an argument was `/home/lecture1`. The input was the `cd` command passing an argument of a `README` file. The ouput of the command was an error message `bash: cd: README: Not a directory` and the prompt of the terminal after the command ran didn't change. The error message tells us that the README file isn't a directory because the `cd` command's function is to change the current directory with another directory which means the only valid arguments for this command to properly work are directories and not files.
+The working directory when running the `cd` command was `/home/lecture1`. The input was the `cd` command passing an argument of the `README` file. The ouput of the command was an error message `bash: cd: README: Not a directory` and the prompt of the terminal after the command ran didn't change. The error message tells us that the README file isn't a directory because the `cd` command's function is to change the current directory with another directory which means the only valid arguments for this command to properly work are directories and not files.
 <br>
 <br>
 <br>
