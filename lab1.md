@@ -62,7 +62,7 @@ The working directory when running the `cat` command was `/home`. The input in t
 
 ![Image](catwfolder.png)
 
-The working directory when running the `cat` command was `/home`. The input in the terminal was the `cat` command while passing the argument, `lecture1` and the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason it states this is because the `cat` command only takes in file arguments as its function is to print the contents of those files.
+The working directory when running the `cat` command was `/home`. The input in the terminal was the `cat` command while passing the argument, `lecture1`, and the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason it states this is because the `cat` command only takes in file arguments as its function is to print the contents of those files.
 <br>
 <br>
 <br>
@@ -70,4 +70,4 @@ The working directory when running the `cat` command was `/home`. The input in t
 
 ![Image](catwithfile.png)
 
-The working directory when running the `cat` command was `home/lecture1/messages`. The input in the terminal was the `cat` command while passing the argument, `el.txt` and the output printed the contents of the file `el.txt`. The reason why this happens is because the working directory has access to the contents of the `messages` folder and in that folder is the txt file `el.txt`. Since we call the `cat` command which has the function to print the contents of a file and we gave a valid and accessible file called `el.txt`, we were able to see the contents of that txt file through the output with no errors.
+The working directory when running the `cat` command was `home/lecture1/messages`. The input in the terminal was the `cat` command while passing the argument, `el.txt`, and the output printed the contents of the file `el.txt`. The reason why this happens is because the working directory has access to the contents of the `messages` folder and in that folder is the txt file `el.txt`. Since we call the `cat` command which has the function to print the contents of a file and we gave a valid and accessible file called `el.txt`, we were able to see the contents of that txt file through the output with no errors.
