@@ -4,7 +4,7 @@
 
 ![Image](cdnoarg.png)
 
-The working directory when running the `cd` command was `/home/lecture1`. The output of using the `cd` command without any arguments in the current directory `/home/lecture1` is that there's no output. However the terminal prompt changes so that the working directory is now the `/home` directory. This is because `cd` stands for changing directory and since there were no arguments to specifically change the directory to, the home directory is the directory it uses to change to. This is why the command had no output and didn't create any errors.
+The working directory when running the `cd` command was `/home/lecture1`. The output of using the `cd` command without any arguments is that there's no output. However the terminal prompt changes so that the working directory is now the `/home` directory. This is because `cd` stands for changing directory and since there were no arguments to specifically change the directory to, the home directory is the directory it uses to change to. This is why the command had no output and didn't create any errors.
 <br>
 <br>
 <br>
