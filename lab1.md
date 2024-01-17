@@ -43,7 +43,7 @@ The working directory when running the `ls` command was `/home/lecture1`. The in
 <br>
 - file as an argument
 
-![Image](lswfile.png)
+![Image](lswithfile.png)
 
 The working directory when running the `ls` command was `/home/lecture1/messages`. The input in the terminal was the `ls` command passing in one argument of the file called 'el.txt' and the ouput was a list with the same file that I passed in as an argument. The reason why this happened is because even though the directory had access to the file that I passed in as an argument, a file can't hold other files or folders so by calling the `ls` command on this file it could only list that file and nothing else. The `ls` command still ran with no errors.
 <br>
