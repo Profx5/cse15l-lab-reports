@@ -52,7 +52,7 @@ The working directory when running the `ls` command was `/home/lecture1/messages
 **`cat` command behaviors**
 - no arguments
 
-![Image](catwnoarg.png)
+![Image](catnoarg.png)
 
 The working directory when running the `cat` command was `/home`. The input in the terminal was the `cat` command with no argument and there was no ouput. However, after inputting the command, the terminal prompt is gone and instead, the terminal prompts you to enter another input and it will output an exact copy of your input. The reason why this happens is because the `cat` command's function is to print the contents of a file and I deduct that because there's no argument for a file to print the contents of, it just prompts you to input anything so that it can print something hence its primary function.
 <br>
