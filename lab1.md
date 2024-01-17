@@ -1,5 +1,5 @@
 # Lab Report 1
-## cd command behaviors
+ **`cd` command behaviors**
 - no arguments
 
 ![Image](cdwnoarg.png)
