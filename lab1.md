@@ -62,7 +62,7 @@ The working directory when running the `cat` command was `/home`. The input in t
 
 ![Image](catwfolder.png)
 
-The working directory when running the `cat` command was `/home/lecture1`. The input in the terminal was the `cat` command while passing the argument, `lecture1`. After running this command with an argument to a directory, the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason the terminal states this is because the `cat` command only takes in file arguments as it prints the contents of those files.
+The working directory when running the `cat` command was `/home`. The input in the terminal was the `cat` command while passing the argument, `lecture1`. After running this command with an argument to a directory, the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason the terminal states this is because the `cat` command only takes in file arguments as it prints the contents of those files.
 <br>
 <br>
 <br>
