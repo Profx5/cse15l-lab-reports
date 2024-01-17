@@ -8,19 +8,19 @@ The working directory when running the `cd` command with an argument of a folder
 
 ![Image](cdwithfile.png)
 
-The working directory when running the `cd` command with an argument of a file was `lecture1`. The input was the `cd` command with an argument of a `README` file. The ouput of the command was the printed message `bash: cd: README: Not a directory` and the prompt of the terminal after the command ran didn't change. The message is an error message that tells us that the README file isn't a directory because the `cd` command's function is to change the current directory with another directory which means the only valid arguments for this command to properly work are directories and not files.
+The working directory when running the `cd` command with an argument of a file was `/home/lecture1`. The input was the `cd` command with an argument of a `README` file. The ouput of the command was the printed message `bash: cd: README: Not a directory` and the prompt of the terminal after the command ran didn't change. The message is an error message that tells us that the README file isn't a directory because the `cd` command's function is to change the current directory with another directory which means the only valid arguments for this command to properly work are directories and not files.
 
 ![Image](lswnoarg.png)
 
-The working directory when runnning the `ls` command was `/home`. The input in the terminal was the `ls` command with no arguments and the output was the folder `lecture1`. The reason why this happened is because since our current directory is `/home` and the `ls` command just lists the files and folders in a given path, it listed out `lecture1` as it was the only folder in the `/home` directory and there were no files in the current directory either.
+The working directory when runnning the `ls` command was `/home`. The input in the terminal was the `ls` command with no arguments and the output was the folder `/home/lecture1`. The reason why this happened is because since our current directory is `/home` and the `ls` command just lists the files and folders in a given path, it listed out `lecture1` as it was the only folder in the `/home` directory and there were no files in the current directory either.
 
 ![Image](lswithfolder.png)
 
-The working directory when running the `ls` command was `home/lecture1`. The input in the terminal was the `ls` command with one argument which was a folder called `messages` and the ouput was a list of txt files. The reason why this happened was because since our current directory had access to the messages folder, by passing in `messages` as an argument along with the `ls` command that lists files and folders of a certain path, we were able to list the files that can be found within the messages folder.
+The working directory when running the `ls` command was `/home/lecture1`. The input in the terminal was the `ls` command with one argument which was a folder called `messages` and the ouput was a list of txt files. The reason why this happened was because since our current directory had access to the messages folder, by passing in `messages` as an argument along with the `ls` command that lists files and folders of a certain path, we were able to list the files that can be found within the messages folder.
 
 ![Image](lswfile.png)
 
-The working directory when running the `ls` command was `home/lecture1/messages`. The input in the terminal was `ls` command with one argument which was a file called 'el.txt' and the ouput was a list with the same file that I passed in as an argument. The reason why this happened is because even though the directory had access to the file that I passed in as an argument, a file can't hold other files or folders so by calling the `ls` command on this file it could only the list that we gave to the command.
+The working directory when running the `ls` command was `/home/lecture1/messages`. The input in the terminal was `ls` command with one argument which was a file called 'el.txt' and the ouput was a list with the same file that I passed in as an argument. The reason why this happened is because even though the directory had access to the file that I passed in as an argument, a file can't hold other files or folders so by calling the `ls` command on this file it could only the list that we gave to the command.
 
 ![Image](catwnoarg.png)
 
@@ -28,7 +28,7 @@ The working directory when running the 'cat' command was `/home`. The input in t
 
 ![Image](catwfolder.png)
 
-The working directory when running the `cat` was `lecture1`. The input in the terminal was the 'cat' command with the argument, 'lecture1'. After running this command with an argument to a directory, the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason the terminal states this is because the `cat` command only takes in file arguments as it prints the contents of those files.
+The working directory when running the `cat` was `/home/lecture1`. The input in the terminal was the 'cat' command with the argument, 'lecture1'. After running this command with an argument to a directory, the ouput was an error message. The message based on the example picture above, tells the user that `lecture1` is a directory and the reason the terminal states this is because the `cat` command only takes in file arguments as it prints the contents of those files.
 
 ![Image](catwithfile.png)
 
