@@ -12,7 +12,7 @@ The working directory when running the `cd` command was `/home/lecture1`. The ou
 
 ![Image](cdwitharg.png)
 
-The working directory when running the `cd` command was `/home`. The input was the `cd` command passing an argument of the directory `lecture1`. The ouput of this was nothing but the prompt in the terminal as you can see from the example has changed so that the working directory has changed from `home` to `lecture1`. There were no errors but the command instead just changed the working directory and showed no output.
+The working directory when running the `cd` command was `/home`. The input was the `cd` command passing an argument of the directory `lecture1`. The ouput of this was nothing but the prompt in the terminal as you can see from the example has changed so that the working directory is now `/home/lecture1`. There were no errors but the command instead just changed the working directory and showed no output.
 <br>
 <br>
 <br>
