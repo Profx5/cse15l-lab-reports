@@ -8,6 +8,7 @@ The working directory when running the `cd` command was `/home`. The output of u
 
 - directory as an argument
 
+
 ![Image](cdwitharg.png)
 
 The working directory when running the `cd` command was `/home`. The input was the `cd` command with an argument of the directory `lecture1`. The ouput of this was nothing but the prompt in the terminal as you can see from the example, the prompt in the terminal has changed which means that the current directory the terminal is in has changed from `home` to `lecture1`. The output didn't create any error but the command instead just changed the current directory and showed no output.
