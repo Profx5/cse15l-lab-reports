@@ -37,7 +37,7 @@ The working directory when runnning the `ls` command was `/home`. The input in t
 
 ![Image](lswithfolder.png)
 
-The working directory when running the `ls` command was `/home/lecture1`. The input in the terminal was the `ls` command passing in one argument of the directory called `messages` and the ouput was a list of txt files `el.txt`, `en-us.txt`, `es-mx.txt`, `zh-cn.txt`. The reason why this happened was because since our working directory had access to the `messages` folder, by passing in `messages` as an argument along with the `ls` command that lists files and folders of a certain path, we were able to list the files that can be found within the `messages` folder. The `messages` folder had no folders inside its contents and there were no errors due to this command.
+The working directory when running the `ls` command was `/home/lecture1`. The input in the terminal was the `ls` command passing in one argument of the directory called `messages` and the ouput was a list of txt files `el.txt`, `en-us.txt`, `es-mx.txt`, `zh-cn.txt`. The reason why this happened is because since our working directory had access to the `messages` folder, by passing in `messages` as an argument along with the `ls` command that lists files and folders of a certain path, we were able to list the files that can be found within the `messages` folder. The `messages` folder had no folders inside its contents and there were no errors due to this command.
 <br>
 <br>
 <br>
