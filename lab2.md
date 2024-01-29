@@ -20,11 +20,11 @@
   
 ![Image](PrivateKeyPath.png)
 
--Public Key
+- Public Key
 
 ![Image](PublicKeyPath.png)
 
--Doesn't ask for password
+- Doesn't ask for password
 
 ![Image](NoPassword.png)
 
