@@ -16,12 +16,17 @@
 
 **Part 2**
 
-![Image](NoPassword.png)
-
-![Image](PublicKeyPath.png)
-
+- Private Key
 ![Image](PrivateKeyPath.png)
 
+-Public Key
+![Image](PublicKeyPath.png)
+
+-Doesn't ask for password
+![Image](NoPassword.png)
+
+
 **Part 3**
+
 Something I learned in lab from week 3 that I didn't know about beforehand was how a web server works from behind the scenes. I knew a little bit that you could change the url to change something on the page but I didn't know what was actually being typed in the url and what parts of the url even mean. Through lab from week 2, not only did I learn to build and run my own server, I was able to look at the code that helps create valid paths of the url which helped clear up a lot of confusion on what parts of the url do if I were to change it. In understanding the behind the scenes of how a server works along with some example code, I was able to structure a new web server that was different than the example given in lab.
 
