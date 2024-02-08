@@ -23,7 +23,7 @@
 
 - Public Key
 
-![Image](PublicKeyPath.png)
+![Image](PublicKeyPath2.png)
 
 - Doesn't ask for password
 
