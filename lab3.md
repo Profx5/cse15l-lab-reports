@@ -34,7 +34,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-
+Using the command `less -N`
 ```
 less -N find-biomed.txt
 
@@ -67,6 +67,7 @@ less -N biomed/1471-2091-3-15.txt
      11         suggests a large amount of structural similarity within
 biomed/1471-2091-3-15.txt
 ```
+Using the command `less -p`
 ```
 less -p "3-19" find-biomed.txt
 
@@ -99,6 +100,7 @@ less -p "paper" biomed/1468-6708-3-1.txt
 
 biomed/1468-6708-3-1.txt
 ```
+Using the command `less -M`
 ```
 less -M find-plos.txt
 
@@ -128,6 +130,7 @@ less -M plos/journal.pbio.0020046.txt
         genetic and neurobiological approaches are now giving us clues to causes and better
 plos/journal.pbio.0020046.txt lines 1-12/232 4%
 ```
+Using the command `less -F`
 ```
 less -F plos/pmed.0020191.txt
 
