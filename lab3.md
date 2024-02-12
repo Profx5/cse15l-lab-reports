@@ -4,12 +4,16 @@ int[] input2 = { 3, 2, 1 };
 ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{ 1, 2, 3 }, input1);
 ```
+Output of above input
+![Image](OutputFailure.png)
 Input that doesn't induce failure
 ```
 int[] input1 = { 3 };
 ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{ 3 }, input1);
 ```
+Output of above input
+![Image](OutputSuccess.png)
 Code before fix
 ```
 static void reverseInPlace(int[] arr) {
