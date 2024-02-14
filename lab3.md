@@ -73,7 +73,7 @@ biomed/1471-2091-3-15.txt
 ```
 What this command is doing is it displays line numbers for each line that's displayed on the output. In the first code block, it's adding line numbers to the file `find-biomed.txt` which was created based on the directory `biomed` that holds `txt` files. The second code block adds number lines to a txt file within the `biomed` directory. While this may not be the most common way of finding out how many lines there are in a file, it helps keep track of just how many there are when you're searching and browsing the entire file.
 
-Source: https://ioflood.com/blog/less-linux-command/
+Source URL: https://ioflood.com/blog/less-linux-command/
 
 Using the command `less -p`
 ```
@@ -110,6 +110,8 @@ biomed/1468-6708-3-1.txt
 ```
 What this command does is it starts the output at the first occurrence of a specific pattern. In the first code block, it's using `less` on the file `find-biomed.txt` which is based on the directory `biomed` that holds txt files. The pattern that it's trying to find is the String `"3-19"` which matches one of the txt files and so the file that matches with the pattern first is the first line that's shown in the output. The second code block is using `less` on a `txt` file in the biomed directory called `1468-6708-3-1.txt` and it's checking for the pattern `"paper"` to match with one of the words in the txt file so the output can start at the line where that word is found. This command is useful because it helps search for a specific pattern that you want to see from the start using the terminal prompt rather than searching for it after you start browsing.
 
+Source URL: https://www.geeksforgeeks.org/less-command-linux-examples/?ref=lbp
+
 Using the command `less -M`
 ```
 less -M find-plos.txt
@@ -141,6 +143,8 @@ less -M plos/journal.pbio.0020046.txt
 plos/journal.pbio.0020046.txt lines 1-12/232 4%
 ```
 What this command does is it shows a more complex prompt that holds information about the contents of the file we're browsing. In the first code block, we use the `less` command on the file `find-plos.txt` which is based off of the `plos` directory that holds many txt files. At the end of this code block, we can see that instead of the prompt just showing the path of the file like usual, in addition, it's showing that we're looking at lines 1-12 out of 253 lines in the file, and that we have only browsed 5% of the entire file. In the second code block we're directly accessing a file in the directory `plos` called `journal.pbio.0020046.txt` and the prompt is telling us that we're currently browsing lines 1-12 out of the 232 lines in the file and that we've only browsed 4% of the entire file. This information gets updated every time we page up or page down. This is useful because we can understand how much we've actually browsed through since looking at many files that look very similar is very hard to keep track of which this command helps with as it accurately displays browsing information.
+
+Source URL: https://ioflood.com/blog/less-linux-command/
 
 Using the command `less -F`
 ```
@@ -176,3 +180,5 @@ less -F plos/pmed.0020191.txt
 xchua@Aegis MINGW64 ~/Documents/Github/docsearch/technical (main)
 ```
 What this command does is if the content of the file can be displayed on one page, it will automatically exit out of the command. In the first code block, we use the `less` command on the file `find-AlcoholProblems.txt` which is based off of the `Alcohol_Problems` directory that holds `txt` files. Since the amount of txt files in the directory can fit on one page, we can see that it automatically exits out of the command and back to the terminal prompt. In the second code block, we're directly using the `less` command on a txt file in the directory `plos` called `pmed.0020191.txt` which its contents can also fit on one page. As you can see the command exits automatically and goes back to the terminal prompt at the end. A behavior that should be noted as well is that because it automatically exits the command for us, we can still see the contents that we were browsing rather than if we used the normal `less` command and the user would have to exit out of the command which would close the contents unless we used the `less` command again.
+
+Source URL: https://ioflood.com/blog/less-linux-command/
