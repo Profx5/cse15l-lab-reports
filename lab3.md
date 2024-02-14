@@ -75,7 +75,7 @@ What this command is doing is it displays line numbers for each line that's disp
 
 Source URL: https://ioflood.com/blog/less-linux-command/
 
-#### Using the command `less -p`
+#### Using the command `less -p "pattern"`
 ```
 less -p "3-19" find-biomed.txt
 
