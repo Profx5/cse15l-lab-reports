@@ -73,6 +73,8 @@ biomed/1471-2091-3-15.txt
 ```
 What this command is doing is it displays line numbers for each line that's displayed on the output. In the first code block, it's adding line numbers to the file `find-biomed.txt` which was created based on the directory `biomed` that holds `txt` files. The second code block adds number lines to a txt file within the `biomed` directory. While this may not be the most common way of finding out how many lines there are in a file, it helps keep track of just how many there are when you're searching and browsing the entire file.
 
+Source: https://ioflood.com/blog/less-linux-command/
+
 Using the command `less -p`
 ```
 less -p "3-19" find-biomed.txt
