@@ -36,7 +36,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-The issue that the original code had was that, since we updated the Array at the same time that we're iterating through its elements, some of the elements are overriden before we have the chance to access the value that was originally stored in the element. The new code fixes the issue by creating another Array that is used to hold the elements of the array `arr` so that we can access all the elements that were originally in the Array without them being changed in the process. 
+The issue that the original code had was that, since we updated the Array at the same time that we're iterating through its elements, some of the elements are overriden before we have the chance to access them which means we lose that value which is needed to sort the Array. The new code fixes the issue by creating another Array that is used to hold the elements of the array `arr` so that we can access all the elements that were originally in the Array without them being changed in the process. 
 ## Part 2
 Using the command `less -N`
 ```
