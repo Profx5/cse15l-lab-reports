@@ -38,7 +38,7 @@ static void reverseInPlace(int[] arr) {
 ```
 The issue that the original code had was that since we updated the Array at the same time that we're iterating through its elements, some of the elements are overriden before we have the chance to access them which means we lose that value. The new code fixes the issue by creating another Array that is used to hold the elements of the array `arr` in reverse so that we can access all the elements that were originally in the Array without them being changed in the process. 
 ## Part 2
-Using the command `less -N`
+#### Using the command `less -N`
 ```
 less -N find-biomed.txt
 
@@ -75,7 +75,7 @@ What this command is doing is it displays line numbers for each line that's disp
 
 Source URL: https://ioflood.com/blog/less-linux-command/
 
-Using the command `less -p`
+#### Using the command `less -p`
 ```
 less -p "3-19" find-biomed.txt
 
@@ -112,7 +112,7 @@ What this command does is it starts the output at the first occurrence of a spec
 
 Source URL: https://www.geeksforgeeks.org/less-command-linux-examples/?ref=lbp
 
-Using the command `less -M`
+#### Using the command `less -M`
 ```
 less -M find-plos.txt
 
@@ -146,7 +146,7 @@ What this command does is it shows a more complex prompt that holds information 
 
 Source URL: https://ioflood.com/blog/less-linux-command/
 
-Using the command `less -F`
+#### Using the command `less -F`
 ```
 less -F  find-AlcoholProblems.txt
 government/Alcohol_Problems/
