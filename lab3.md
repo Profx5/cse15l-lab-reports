@@ -1,5 +1,4 @@
-# Lab Report 3
-## Part 1
+# Lap Report 1
 Failure inducing input
 ```
 int[] input2 = { 3, 2, 1 };
@@ -35,7 +34,6 @@ static void reverseInPlace(int[] arr) {
         arr[j] = newArr[j];
     }
 }
-## Part 2
 ```
 Using the command `less -N`
 ```
