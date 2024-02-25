@@ -4,9 +4,9 @@
 
 ![Image](Lab4Step6.png)
 
-![Image](Lab4Step7#1.png)
+![Image](Lab4Step71.png)
 
-![Image](Lab4Step7#2.png)
+![Image](Lab4Step72.png)
 
 ![Image](lab4step8.png)
 
