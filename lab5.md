@@ -17,6 +17,8 @@ Thank you for the feedback, I realized that by checking the actual JUnit test ou
 ![Image](Lab5fixed.png)
 ![Image](Lab5fixedOutput.png)
 
+## Part 2
+Something I learned from my lab experience in the second half of this quarter that I didn't know before was learning about Vim and how I can use it in my own daily coding use. Before learning it in class, I never really understood what the term actually met and it was definitely one of the more common words I hear when listening in on other classmates in my computer science lectures. Now that I know that Vim is a text editor, its functionality makes so much more sense since I've been using my mouse on VScode to enter and edit all my files. While I've only just learned about how to use it, over the past weeks I've been getting a lot more comfortable using vim and using the terminal in general to edit files and access files rather than just using a terminal to look at output. I can see this being an important tool in the future for my other coding classes and I want to learn more about Vim as my current workflow when coding works better when using Vim.
 
 
 
